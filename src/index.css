@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fantasy-bg: #0f0a1e;
+  --fantasy-accent: #d4af37;
+}
+
+body {
+  background-color: var(--fantasy-bg);
+  color: white;
+  font-family: 'Crimson Text', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0a1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c1810;
+  border: 1px solid #d4af37;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Text Selection */
+::selection {
+  background: #d4af37;
+  color: #0f0a1e;
+}
