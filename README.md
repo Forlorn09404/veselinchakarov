@@ -3,87 +3,110 @@
 ## 📘 Project Overview
 
 This website was created as part of a **school assignment**.  
-The goal of the project was to design, build, and deploy a complete website using modern web technologies.
+The objective of the project was to design, develop, and deploy a complete front-end website using modern web technologies and real-world deployment tools.
 
-For this assignment, I chose to create a **personal portfolio website for my dad**, showcasing his professional experience, skills, and projects in a clean and structured way.
+For this assignment, I chose to build a **personal portfolio website for my dad**, presenting his professional experience, skills, and projects in a clean, structured, and responsive format.
 
 **Student:** Petar V. Chakarov  
-**Purpose:** Educational / Class Project
+**Project Type:** Educational / Class Project
 
 ---
 
 ## 👨‍💼 About the Website
 
-The website represents a **professional portfolio**, including sections such as:
+The website is designed as a **professional portfolio** and includes the following sections:
 
 - About / Introduction  
-- Skills and expertise  
+- Skills and technologies  
 - Work experience and projects  
 - Contact information  
 
-The design focuses on simplicity, readability, and responsiveness, making it suitable for both desktop and mobile devices.
+The layout and content focus on clarity, usability, and responsiveness, ensuring the website works well on both desktop and mobile devices.
 
 ---
 
 ## 🛠 Technologies Used
 
-### Front-End
-- **HTML5** – semantic structure of the website  
-- **CSS3** – layout, styling, animations, and responsive design  
-- **JavaScript (Vanilla JS)** – interactive elements and dynamic behavior  
+### Front-End Technologies
 
-### Deployment & Hosting
-- **Netlify** – used to deploy and host the website  
-  - Automatic builds and deployments from the Git repository  
-  - HTTPS enabled by default  
-  - Fast global content delivery  
+- **HTML5**  
+  Used for the semantic structure and content of the website.
 
-### Domain Management
-- **GoDaddy** – used to purchase and manage the custom domain  
-  - Domain connected to Netlify using DNS configuration  
+- **TypeScript**  
+  Used instead of plain JavaScript to provide type safety, improve code quality, and make the project easier to maintain.
+
+- **Tailwind CSS**  
+  A utility-first CSS framework used for styling, layout, and responsive design.  
+  It allows fast development and consistent design without writing large custom CSS files.
 
 ---
 
-## 🚀 Deployment Process
+### Tooling & Build Setup
+
+- **Node.js**  
+  Runtime environment used for development tooling.
+
+- **npm**  
+  Used to manage dependencies and scripts.
+
+- **PostCSS**  
+  Used by Tailwind CSS to process and optimize styles during the build process.
+
+---
+
+## 🚀 Deployment & Hosting
+
+### Hosting Platform
+
+- **Netlify**  
+  The website is deployed and hosted using Netlify.
+
+  Features used:
+  - Automatic builds and deployments from a Git repository  
+  - HTTPS enabled by default  
+  - Fast global content delivery  
+
+Each change pushed to the repository automatically triggers a new deployment.
+
+---
+
+### Domain Management
+
+- **GoDaddy**  
+  A custom domain was purchased through GoDaddy.
+
+  - DNS records were configured to point the domain to Netlify  
+  - The domain is fully integrated with the Netlify deployment  
+
+---
+
+## 🔄 Deployment Workflow
 
 1. The project source code is stored in a Git repository  
 2. Netlify is connected to the repository  
-3. On each update, Netlify automatically builds and deploys the website  
-4. A custom domain purchased from GoDaddy is linked to the Netlify deployment  
+3. During deployment:
+   - Tailwind CSS is built using PostCSS  
+   - TypeScript is compiled  
+4. Netlify deploys the optimized static site  
+5. The custom domain from GoDaddy is linked to the deployed website  
 
 ---
 
 ## 🎯 Project Goals
 
-- Learn how to build a complete front-end website  
+- Practice building a complete front-end website  
+- Learn and use modern technologies such as TypeScript and Tailwind CSS  
 - Understand real-world deployment workflows  
-- Gain experience using hosting platforms and custom domains  
-- Apply responsive and accessible design principles  
+- Gain experience with hosting platforms and custom domains  
+- Create a realistic and practical project instead of a fictional example  
 
 ---
 
-## ⚠️ Disclaimer
+## 📂 Running the Project Locally
 
-This website was created **for educational purposes only** as part of a class assignment.  
-While it represents a real person’s portfolio, it is not intended for commercial use.
+To run the project locally:
 
----
-
-## 📂 How to Run the Project Locally
-
-1. Download or clone the repository  
-2. Open `index.html` in a web browser  
-3. No additional setup or server is required  
-
----
-
-## 📬 Contact
-
-If you have questions about this project, feel free to reach out to me through my school contact channels.
-
-
-
-1. Run `npm install`
-2. Run `npm run dev`
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-username/your-repo-name)
+1. Clone or download the repository  
+2. Install dependencies:
+   ```bash
+   npm install
