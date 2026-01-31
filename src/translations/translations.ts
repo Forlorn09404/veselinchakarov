@@ -238,8 +238,8 @@ export const translations = {
         },
         info: {
           location: 'Varna, Bulgaria',
-          email: 'veselin@example.com',
-          phone: '+359 88 123 4567'
+          email: 'v_chakarov@yahoo.com',
+          phone: '+359896417365'
         }
       }
     },
